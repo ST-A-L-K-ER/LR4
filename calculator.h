@@ -1,6 +1,10 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 
 int main() {
+    setlocale(LC_ALL, "ru");
+    
     char operator;
     double firstNumber, secondNumber, result;
 
