@@ -15,6 +15,13 @@ int main() {
     scanf("%lf %lf", &firstNumber, &secondNumber);
 
     // Выполнение операции в зависимости от введенного операнда
+    /**
+    \brief Шаблонная функция выполнения простейших математических операций
+
+    \param [in] a Операция, которую надо совершить
+
+    \return Ответ, равный операции *a* с *firstNumber* и *secondNumber*.
+    */
     switch (operator) {
         case '+':
             result = firstNumber + secondNumber;
